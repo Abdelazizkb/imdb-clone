@@ -4,7 +4,7 @@ import { upnext } from "../bd";
 
 function NextList() {
   return (
-        <div className="flex flex-col  items-start">
+        <div className="hidden xl:flex flex-col  items-start">
             <span className="text-yellow text-xl font-bold mb-4">Up next</span>
             { upnext.map((slide,key)=>{ 
                 return (
@@ -19,7 +19,7 @@ function NextList() {
                 )
             })}
 
-            <span className="text-white text-2xl font-bold mt-8">Browse trailers &#62;</span>
+            <span className="text-white text-2xl font-bold mt-8 cursor-pointer">Browse trailers &#62;</span>
         </div>
     );
 }

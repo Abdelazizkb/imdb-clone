@@ -11,7 +11,7 @@ function Navbar() {
     const [showSearchBox, setShowSearchBox] = useState(false)
     return (
         <div className="bg-navbar w-full h-14 md:h-16 text-white flex items-center justify center">
-            <div className="container px-12 xl:px-28 mx-auto  flex items-center ">
+            <div className="container px-4 xl:px-28 mx-auto  flex items-center ">
                  <img  className="block xl:hidden py-1 px-4 hover:bg-gray-800 rounded-md cursor-pointer" src={menu}/>
                  <img  src={logo}/>
                  <ul className="flex flex-1 h-full">

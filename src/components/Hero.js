@@ -6,7 +6,7 @@ import NextList from './NextList'
 
 function Hero() {
     return (
-     <div className="container px-12 xl:px-28 mx-auto  flex items-start mt-8">
+     <div className="container px-4 xl:px-28 mx-auto  flex items-start mt-8">
         <Carousel/>  
         <NextList/>
      </div>   

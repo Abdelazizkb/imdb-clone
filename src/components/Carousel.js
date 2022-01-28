@@ -8,7 +8,7 @@ import play from "../images/play.svg";
 function Carousel() {
     const [currentSlide, setCurrentSlide] = useState(0)
     return (
-    <div className="mr-8">
+    <div className="xl:mr-8">
         <div className="  flex overflow-hidden relative">
           {CarouselData.map((slide, index) => {
             return (
@@ -19,12 +19,12 @@ function Carousel() {
                   key={index}
                   className={
                     index ===currentSlide
-                      ? "block h-hero w-hero object-cover"
+                      ? "block w-full h-full xl:h-hero xl:w-hero object-cover"
                       : "hidden"
                   }
                 />
-                <img className="absolute top-0 left-0 h-hero w-hero" src={filter} />
-                <div className="absolute bottom-0 left-0 w-hero h-auto flex items-end px-8 py-2 mx-auto">
+                <img className="absolute top-0 left-0 w-full h-full xl:h-hero xl:w-hero" src={filter} />
+                <div className="absolute bottom-0 left-0 w-auto xl:w-hero h-auto flex items-end px-8 py-2 mx-auto">
                      <img src={slide.thumb} className="bg-blue-200 w-48 h-60"/>
                      <div className="flex items-center">
                        <img className="h-20 m-3" src={play}/>
