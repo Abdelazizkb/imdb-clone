@@ -5,7 +5,7 @@ import start from "../images/start.svg"
 function PrimeItem({slide}) {
   return    <div className="relative flex flex-col h-prime-lg w-prime-lg xl:h-prime xl:w-prime items-start bg-stell rounded-sm">
                 <img
-                  src={slide.image}
+                  src={slide.thumb}
                   alt="This is a carousel slide"
                   
                   className="block h-64 w-full object-cover rounded-t-sm"
