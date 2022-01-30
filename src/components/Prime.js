@@ -8,7 +8,7 @@ function Prime() {
                <div className="flex flex-col items-start bg-navbar lg:bg-transparent md:p-4 lg:p-0 w-full">
                   <span className="mx-4 md:mx-0 border-b-4 border-yellow px-6 pb-2 text-white text-sm md:text-md font-bold">PRIME VIDEO</span>
                   <span className="mx-4 md:mx-0  text-white text-md md:text-lg  mt-2 md:mt-4 ">included with Prime</span>
-                  <div className="ml-2 md:ml-0  relative h-auto w-full mt-3 md:mt-8">
+                  <div className="px-1 md:px-0  relative h-auto w-full mt-3 md:mt-8">
                      <PrimeItems/>
                   </div>
                </div>  
