@@ -17,7 +17,7 @@ function Footer() {
              </div>
               <div className="w-5/6 xl:w-4/6 mx-auto text-white text-sm md:text-xl font-medium flex flex-wrap justify-between md:px-1 md:px-4">
                  <a className="m-1 md:m-0">Get the IMDb App</a>
-                 <a className="m-1 md:m-0">Help</a>
+                 <a className="m-1 ml-3  md:m-0">Help</a>
                  <a className="m-1 md:m-0">Site Index</a>
                  <a className="m-1 md:m-0">IMDbPro</a>
                  <a className="m-1 md:m-0">Box Office Mojo</a>

@@ -9,7 +9,7 @@ function Item({slide}) {
                   
                   className="block h-44 xl:h-64 w-full "
                 />
-                <p className="w-full text-white font-medium text-sm lg:text-md xl:text-lg text-start text-left">Watch Our Interview From Sundance 2022</p>
+                <p className="w-full text-white font-medium text-sm lg:text-md xl:text-lg text-start text-left mt-1">Watch some algerian movies</p>
             </div>
 }
 

@@ -8,7 +8,7 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Spider-Man: No Way Home</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Achour 10</span> 
                                    <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 14M</span> 
                               </div> 
                            </div>
@@ -18,7 +18,7 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Scream</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Dakyous && Makyous</span> 
                                    <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 12M</span> 
                               </div> 
                            </div>
@@ -28,7 +28,7 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Sing</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">La Bataille d'alger</span> 
                                    <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 5.8M</span> 
                               </div> 
                            </div>
@@ -38,7 +38,7 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Reedming Love</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Inspecteur tahar</span> 
                                    <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 3.5M</span> 
                               </div> 
                            </div>
@@ -48,7 +48,7 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">The kings Man</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Chronique des annees de braise</span> 
                                    <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 1.8M</span> 
                               </div> 
                            </div>
@@ -58,8 +58,8 @@ function ExploreItems() {
                            <div className="flex items-center">
                               <MdAddBox className="text-3xl text-white ml-2"/>
                               <div className="flex flex-col items-start ml-2 ">
-                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">The 355</span> 
-                                   <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 1.6M</span> 
+                                   <span className="text-white text-md md:text-lg lg:text-xl font-medium">Bou balto</span> 
+                                   <span className="text-gray-400 font-bold text-sm lg:text-md ">$ 0.0M</span> 
                               </div> 
                            </div>
                      </div>
