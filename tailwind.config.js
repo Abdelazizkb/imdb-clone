@@ -22,10 +22,12 @@ module.exports = {
         "hero-lg":650,
         "item":420,
         "item-lg":305,
+        "item-md":235,
         "prime":210,
         "prime-lg":150,
+        "item-sm":195,
         "explore":640,
-        "explore-lg":400
+        "explore-lg":360
 
       }
     },

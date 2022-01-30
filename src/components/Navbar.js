@@ -29,7 +29,7 @@ function Navbar() {
                     <span className="block md:hidden ml-auto p-2 mr-3 justify-self-end hover:bg-gray-800 rounded-full" onClick={()=>setShowSearchBox(!showSearchBox)}> <img  className="" src={search_sm}/></span> 
                     {(showSearchBox)&&<Searchbox show={setShowSearchBox}/>}
                     <li className="md:ml-auto xl:ml-0 py-1 px-2 font-medium hover:bg-gray-800 rounded-md cursor-pointer ">Sign in</li>
-                    <li className="md:ml-auto xl:ml-0 py-1 px-2  font-medium hover:bg-gray-800 rounded-md cursor-pointer ">EN</li>
+                    <li className="hidden lg:flex md:ml-auto xl:ml-0 py-1 px-2  font-medium hover:bg-gray-800 rounded-md cursor-pointer ">EN</li>
                  </ul>
 
             </div>

@@ -19,3 +19,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 40%;
+  width: calc(var(--swiper-navigation-size)/ 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+  padding:30px 20px;
+  border: solid white 2px;
+  border-radius: 3px;
+  scroll-margin-inline: -50;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+.swiper-slide {
+  width: auto;
+}
+@media only screen and (max-width: 426px) {
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
+}
